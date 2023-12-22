@@ -16,7 +16,7 @@
     "react-hook-form": "^7.48.2",
     "react-query": "^3.39.3",
     "react-router-dom": "^6.18.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -60,7 +60,6 @@
     "babel-plugin-named-exports-order": "^0.0.2",
     "eslint-plugin-storybook": "^0.6.15",
     "prop-types": "^15.8.1",
-    "serve": "^14.2.1",
     "storybook": "^7.5.3",
     "webpack": "^5.89.0"
   }
