@@ -49,5 +49,12 @@ router.get('/tmdb/genres', asyncHandler(async (req, res) => {
     const genres = await getGenres();
     res.status(200).json(genres);
 }));
-
+router.get('/tmdb/favorite', asyncHandler(async (req, res) => {
+    const genres = await getFavoriteMovies();
+    res.status(200).json(favoriteMovies);
+}));
+router.get('/tmdb/nowplaying', asyncHandler(async (req, res) => {
+    const genres = await getNowplayingMovies();
+    res.status(200).json(nowplayingMovies);
+}));
 export default router;
